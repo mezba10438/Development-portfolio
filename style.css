@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#one {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.first-page {
+    width: 50%;
+    text-align: justify;
+    margin-left: 5%;
+
+}
+
+.first-page-image {
+    width: 40%;
+    margin-left: 5%;
+}
+
+section {
+    display: flex;
+
+}
+
+.hire-me {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+
+
+}
+
+.background-image {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
