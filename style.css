@@ -13,7 +13,6 @@ h1 {
 
 .first-page {
     width: 50%;
-    text-align: justify;
     margin-left: 5%;
 
 }
@@ -25,6 +24,7 @@ h1 {
 
 section {
     display: flex;
+    padding-top: 10%;
 
 }
 
@@ -34,6 +34,8 @@ section {
     text-decoration: none;
     border-radius: 3px;
     margin-top: 10px;
+    color: white;
+    font-weight: 700;
 
 
 }
@@ -41,4 +43,11 @@ section {
 .background-image {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.secound-bannar {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
